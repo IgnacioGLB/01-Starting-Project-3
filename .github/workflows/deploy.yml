@@ -34,7 +34,7 @@ jobs:
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
   deploy:
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #lero
     steps:
       - name: Output information
         run: |        
